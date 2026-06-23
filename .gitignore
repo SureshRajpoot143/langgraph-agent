@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment Variables
+.env
+.env.local
+
+# API Keys
+secrets.txt
+config.py
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Build
+build/
+dist/
+
+# LangChain / LangGraph
+chroma_db/
+vectorstore/
+faiss_index/
+
+# Model files
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Google Credentials
+credentials.json
+service_account.json
